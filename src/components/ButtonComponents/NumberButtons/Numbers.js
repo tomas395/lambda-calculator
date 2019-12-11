@@ -14,11 +14,10 @@ import { numbers } from '../../../data'
        it any props needed by the child component*/
 
 const Numbers = () => {
-  //
-  const [numbervalues] = useState(numbers);
+  const [numberValues] = useState(numbers);
   return (
     <div className="numbers-container">
-      {numbervalues.map((button, index) => (
+      {numberValues.map((button, index) => (
         <NumberButton key={index} button={button} />
       ))}
       ;
