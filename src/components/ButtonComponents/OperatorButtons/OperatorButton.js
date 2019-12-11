@@ -5,20 +5,3 @@ const OperatorButton = props => {
 };
 
 export default OperatorButton;
-
-// const NumberButton = props => {
-//   return <button className="number-button">{props.button}</button>;
-// };
-
-// const Numbers = () => {
-
-//   const [numberValues] = useState(numbers);
-//   return (
-//     <div className="numbers-container">
-//       {numberValues.map((button, index) => (
-//         <NumberButton key={index} button={button} />
-//       ))}
-//       ;
-//     </div>
-//   );
-// };
